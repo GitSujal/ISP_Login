@@ -24,6 +24,6 @@ try:
     driver.close() # Closes the browser window.
 
 except NoSuchElementException: # If you're already logged in, without showing an error, it shows you a custom message.
-    print("Oh, you're already logged in.")
+    print("You're already logged in.")
     time.sleep(5)
     driver.close()
